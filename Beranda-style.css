@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff6d4;
+  background-image: url("../gameSutenV2/assets/background.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100vw;
+  font-family: Truculenta;
+  color: #5c2c0c;
+}
+/* Halaman 1 */
+section#hal-1 {
+  display: block;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 6rem;
+}
+h1 {
+  font-size: 4.5rem;
+}
+p {
+  font-size: 3rem;
+}
+.isi {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.button {
+  padding: 0.4rem 1.1rem;
+  width: 10%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  background-color: #5c2c0c;
+  border-radius: 20px;
+  color: #fff6d4;
+  margin: 2rem auto;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+/* Halaman 2 */
+section#hal-2 {
+  display: none;
+  flex-direction: column;
+}
+.isi p {
+  font-size: 2rem;
+  width: 60%;
+  margin: 4rem 0;
+}
+
+/* Halaman 3 */
+section#hal-3 {
+  display: none;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8rem;
+}
+.konten {
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.konten p {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Truculenta;
+  color: #5c2c0c;
+}
+
+/* Halaman 4 */
+section#hal-4 {
+  display: none;
+  flex-direction: column;
+}
+.frame h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 4.5rem;
+  color: #5c2c0c;
+}
+.cont-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 9rem;
+  align-items: center;
+}
+.figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.figure img,
+.figure span {
+  margin: 5px;
+}
+.figcaption {
+  max-width: 500px;
+  max-height: 80px;
+}
+.figcaption p {
+  display: flex;
+  font-size: 1.7rem;
+  text-align: justify;
+  align-items: self-start;
+  color: #5c2c0c;
+}
+
+/* Halaman 5 - Rules */
+section#hal-5 {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+section#hal-5 > h1 {
+  margin-top: 6rem;
+  color: #5c2c0c;
+}
+.rules {
+  list-style-type: circle;
+  color: #5c2c0c;
+  margin: 3rem 0 3rem 0;
+}
+.rules li {
+  list-style-type: decimal;
+  font-size: 1.9rem;
+  padding: 0.5rem;
+}
+
+/* Halaman-6 */
+section#hal-6 {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+section#hal-6 h1 {
+  margin-top: 7rem;
+  font-size: 3rem;
+}
+section#hal-6 p {
+  font-size: 12rem;
+  color: rgb(231, 53, 4);
+}
+
+/* Play The Game */
+section#game {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+section#game h1 {
+  font-size: 3rem;
+  margin-top: 6rem;
+}
+section#game p {
+  font-size: 2rem;
+  color: rgb(231, 53, 4);
+}
+.frame-game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  min-height: 270px;
+  margin: 0;
+  border: 4px solid #5c2c0c;
+}
+.computer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+.computer img {
+  display: flex;
+}
+.computer p {
+  margin-bottom: 1rem;
+}
+.result {
+  display: flex;
+  flex: 0.3;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.result h3 {
+  color: #e61c0d;
+  font-size: 40px;
+  margin-top: 2rem;
+}
+.result h2 {
+  font-size: 30px;
+  padding: 0 5px;
+  color: #e61c0d;
+  border: 5px solid red;
+  border-bottom: none;
+  border-radius: 10px;
+}
+.computerScore,
+.playerScore {
+  font-size: 60px;
+  margin-bottom: 1rem;
+}
+.player {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.player img {
+  transform: rotateY(180deg);
+}
+.player p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.button-game {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+.button-game img:hover {
+  cursor: pointer;
+}
+.label {
+  display: none;
+  place-items: center; /* Menempatkan elemen di tengah horizontal dan vertikal */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(22, 7, 234);
+  width: 100vw;
+}
+
+.labelMessage {
+  font-size: 10rem !important;
+  text-align: center;
+  margin: 0 !important;
+  color: #fff6d4;
+}
+
+.buttonGames {
+  padding: 0.4rem 1.1rem;
+  width: 15%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #fff6d4;
+  border-radius: 20px;
+  color: #5c2c0c;
+  margin: 2rem auto;
+}
+.button-games:hover {
+  cursor: pointer;
+}
+
+/* ending */
+#ending {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Untuk memastikan section berada di tengah layar */
+}
+
+.ending-container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 20px;
+  text-align: center;
+  background-color: #fff6d4;
+  padding: 40px;
+  border: 4px solid #5c2c0c;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-ending {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#win{
+  color: blue;
+  font-weight: bold;
+}
+
+.buttonGames-1,
+.buttonGames-2 {
+  width: 100%;
+  background-color: #5c2c0c;
+  color: #fff6d4;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-width: 150px;
+  min-height: 50px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+.buttonGames-1:hover,
+.buttonGames-2:hover{
+  cursor: pointer;
+}

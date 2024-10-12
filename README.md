@@ -3,3 +3,7 @@ This suit(Indonesian Version) game is built using HTML, CSS, and JavaScript. It 
 ![image](https://github.com/user-attachments/assets/49fe74f4-bf04-4c48-9260-e4ecfb081946)
 
 The game is still in development as the website is not fully interactive yet. Stay tuned for the next update!
+
+Click here to try : 
+https://masbotang.github.io/gameSutenV2/
+

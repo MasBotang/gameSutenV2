@@ -134,6 +134,7 @@ function endGame() {
   const playerPointElement = document.querySelector(".playerScore-1");
   if (playerPoint === 2 || playerPoint === 3) {
     winMessage.innerHTML = "WIN THE GAME!";
+    winMessage.style.color = "blue";
     computerPointElement.innerHTML = computerPoint;
     playerPointElement.innerHTML = playerPoint;
   } else if (computerPoint === 2 || computerPoint === 3) {
